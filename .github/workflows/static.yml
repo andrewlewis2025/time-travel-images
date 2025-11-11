@@ -1,4 +1,5 @@
 name: Deploy static content to Pages
+
 on:
   push:
     branches: [main]
@@ -29,5 +30,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - id: deployment
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
