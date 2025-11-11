@@ -1,5 +1,0 @@
-{
-  "name": "Time-Travel Photo Generator",
-  "description": "Upload a portrait, mask the face and body, and use Gemini to generate five faithful looks from the 1960s through the 2000s, editing only the hair, clothing, and background.",
-  "requestFramePermissions": []
-}
